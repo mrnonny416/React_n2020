@@ -61,7 +61,7 @@ export default class Facebook extends Component {
     } else {
       fbContent = (
         <FacebookLogin
-          appId="282134229543635"
+          appId="เลข dev Facebook"
           autoLoad={Number(localStorage.getItem('key'))}
           fields="name,email,picture"
           onClick={this.componentClicked}

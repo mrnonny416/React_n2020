@@ -33,7 +33,7 @@ export default class Register extends Component{
     }
 
     handleClicked(){
-        let url = 'https://nonny.iamnonny.work/data';
+        let url = 'URL ของ ตัวเอง/data';
         let data = {
             idkey:this.state.idkey,
             firstname:this.state.firstname,
